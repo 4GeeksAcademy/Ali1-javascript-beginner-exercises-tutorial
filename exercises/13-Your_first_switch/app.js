@@ -1,10 +1,17 @@
 function getColor(selection)
 {
-	switch(selection){
-		// Add more options here
+	switch(selection.toLowerCase()){
+		case 'red':
+			case 'blue':
+				case 'green':
+					case 'yellow':
+						case 'purple':
+							case 'orange':
+								return true;
+
 	    default:
 	    	return false;  //returns false because the user picked an unavailable color
-	    break;               
+	              
 	}
 }
 

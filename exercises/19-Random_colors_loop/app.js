@@ -18,7 +18,13 @@ function getColor(colorNumber = 0) {
 function getAllStudentColors() {
 
 	//your loop here
-	let exampleColor = getColor(1);
+	const numberOfStudents = 10;
+
+for (let i = 0; i < numberOfStudents; i++) {
+	let randomColorNumber = Math.floor(Math.random() * 4) + 1;
+	let studentColor = getColor(randomColorNumber);
+	console.log(studentColor);
+}
 }
 
 //call the function below with the number of students in the class and print on the console
